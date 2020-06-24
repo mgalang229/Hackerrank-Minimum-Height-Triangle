@@ -8,7 +8,7 @@ void decode() {
 	double b, h, a;
 	cin >> b >> a;
 	h = (a * 2) / b;
-	cout << round(h) << "\n";
+	cout << fixed << setprecision(0) << h << "\n";
 }
 int main() {
 	ios::sync_with_stdio(false);
